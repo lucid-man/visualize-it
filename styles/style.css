@@ -1,0 +1,41 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  border-bottom: 1px solid green;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+nav a {
+  margin: 0px 5px;
+}
+
+hr {
+  border-color: lightgreen;
+}
+
+.one-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.one-item {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid lightgreen;
+  border-radius: 5px;
+}
+
+.group-title {
+  text-align: left;
+}
