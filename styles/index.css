@@ -1,0 +1,17 @@
+.one-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.one-item {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid lightgreen;
+  border-radius: 5px;
+}
+
+.group-title {
+  text-align: left;
+}
